@@ -10,7 +10,7 @@ SPRING_DATASOURCE_URL='jdbc:postgresql://ec2-35-169-254-43.compute-1.amazonaws.c
 SPRING_DATASOURCE_USERNAME='jndadgiufdxnzf' \
 SPRING_DATASOURCE_PASSWORD='f58c32f24649d8321c90869f0612137be57417d7cf797a76a490d9d350884224'
 
-El comando de arriba tiene configurado, la base de datos en Heroku, y el puerto 8080.
+El comando de arriba tiene configurado, la base de datos en Heroku, y el puerto 8080. Adicionalmente el ambiente tiene configurado JAVA_OPTS, como variable global, para la disminucion de memoria en HEROKU.
 
 BASE DE DATOS
 El schema y codigo SQL se encuentra ubicado en: /src/test/java/com/example/developer
